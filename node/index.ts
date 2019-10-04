@@ -3,6 +3,9 @@ import { Clients } from './clients'
 import routes from './handlers'
 import addTranslations from './resolvers/addTranslations'
 import exportProductCatalog from './resolvers/exportProductCatalog'
+import { Entity } from 'vtex.admin-messages'
+
+console.log("Check if is available on runtime", Entity.Product)
 
 const TRANSLATION_CONCURRENCY = 5
 const TRANSLATION_RETRIES = 3
