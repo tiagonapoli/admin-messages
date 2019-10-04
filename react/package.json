@@ -13,6 +13,9 @@
     "@types/react-dropzone": "^4.2.2",
     "@types/react-intl": "^2.3.17",
     "apollo-client": "^2.6.3",
+    "eslint": "^6.4.0",
+    "eslint-config-vtex": "^11.0.0",
+    "eslint-config-vtex-react": "^5.0.1",
     "graphql": "^14.0.2",
     "graphql-tag": "^2.10.1",
     "react": "^16.8.6",
@@ -22,7 +25,10 @@
     "tslint": "^5.14.0",
     "tslint-config-vtex": "^2.1.0",
     "types": "^0.1.1",
-    "typescript": "3.5.2"
+    "typescript": "3.5.2",
+    "vtex.render-runtime": "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.render-runtime@8.67.0/public/@types/vtex.render-runtime",
+    "vtex.admin-graphql": "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.admin-graphql@1.33.1/public/@types/vtex.admin-graphql",
+    "vtex.styleguide": "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.styleguide@9.86.2/public/_types/react"
   },
   "dependencies": {
     "react-dropzone": "^10.1.5",

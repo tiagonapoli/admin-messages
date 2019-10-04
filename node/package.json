@@ -9,9 +9,14 @@
     "@types/node": "^10.12.17",
     "@types/ramda": "types/npm-ramda#dist",
     "@vtex/api": "^3.21.3",
+    "eslint": "^6.4.0",
+    "eslint-config-vtex": "^11.0.0",
+    "eslint-config-vtex-react": "^5.0.1",
     "tslint": "^5.12.0",
     "tslint-config-vtex": "^2.1.0",
-    "typescript": "3.5.2"
+    "typescript": "3.5.2",
+    "vtex.styleguide": "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.styleguide@9.86.2/public/_types/react",
+    "vtex.admin-graphql": "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.admin-graphql@1.33.1/public/@types/vtex.admin-graphql"
   },
   "scripts": {
     "lint": "tsc --noEmit && tslint -c tslint.json './**/*.ts'"
